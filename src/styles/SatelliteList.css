@@ -12,3 +12,9 @@
   font-size: 1em;
   color: #fff;
 }
+
+.sat-list {
+  height: 335px;
+  overflow: scroll;
+}
+
