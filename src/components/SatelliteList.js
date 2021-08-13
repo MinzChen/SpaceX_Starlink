@@ -4,6 +4,7 @@ import Satellite from "../assets/images/Satellite.svg";
 
 class SatelliteList extends Component {
   onChange = (e) => {
+    //console.log(e.target);
     const { dataInfo, checked } = e.target;
     this.props.onSelectionChange(dataInfo, checked);
   };

@@ -23,15 +23,15 @@ class Main extends Component {
 
     if (status && !found) {
       list.push(item);
-    }
+    } //add
 
     if (!status && found) {
       list = list.filter((entry) => {
         return entry.satid !== item.satid;
-      });
+      });//remove
     }
 
-    console.log(list);
+    //console.log(list);
     this.setState({
       selected: list,
     });
